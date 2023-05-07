@@ -1,8 +1,9 @@
+💻 Watch Complete Tutorial on Youtube:
+https://youtu.be/SmFtcQqM8S8
+
 👋 Welcome to my channel!
 
 🌟 In this video tutorial, I'll show you how to build a stunning personal portfolio website using HTML, CSS, and JavaScript. I'll also be using the Fontawesome and Isotope libraries to enhance the look and functionality of the site. Follow along and create your own impressive portfolio website today!
-
-Download Starter Files:
 
 =================================
 
