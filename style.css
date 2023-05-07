@@ -1,0 +1,122 @@
+/* GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+
+/* VARIABLES */
+:root {
+  --primary-color: #0f7ebf;
+  --primary-color-light: #0f8dbf1f;
+  --secondary-color: #ffffff;
+  --bg-color: #ffffff;
+  --bg-color-2: #f5f5f5;
+  --text-color: #151d41;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Roboto Slab", serif;
+  --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dark {
+  --bg-color: #292929;
+  --bg-color-2: #1f1f1f;
+  --text-color: #ffffff;
+  --shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary-color);
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.btn-primary {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+}
+.btn-primary:hover {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  border-color: var(--text-color);
+}
+.btn-secondary {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  border: 1px solid var(--text-color);
+}
+.btn-secondary:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: var(--primary-color);
+}
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+}
+h1 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+
+/* HEADER */
+
+/* HERO SECTION */
+
+/* ABOUT SECTION  */
+
+/* Services section */
+
+/* EXPERTIES SECTION */
+
+/* PORTFOLIO SECTION */
+
+/* CONTACT FORM SECTION */
+
+/* FOOTER */
+
+/* THEME SETTINGS */
+
+/* DARK MODE */
